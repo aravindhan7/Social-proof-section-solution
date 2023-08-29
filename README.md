@@ -16,7 +16,7 @@ This is a solution to the [Social proof section solution challenge on Frontend M
 
 ### Links
 
-- Solution URL: [https://github.com/aravindhan7/Stats-preview-card-components]
+- Solution URL: [https://github.com/aravindhan7/Social-proof-section-solution]
 - Live Site URL: [https://aravindhan7.github.io/Stats-preview-card-components/]
 
 
