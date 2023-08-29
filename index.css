@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Outfit:wght@300;400;600&family=Overpass:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: "League Spartan", sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat, no-repeat;
+
+}
+
+
+
+main{
+    background-color: hsl(0, 0, 96%);
+    display: flex;
+    flex-direction: column;
+    width: 580px;
+    height:300px;
+}
+
+.top{
+    display: flex;
+}
+.left-container{
+    flex: 1;
+}
+
+.right-container{
+    flex: 1;
+}
+
+h1{
+    font-size: 1.5rem;
+    width: 170px;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
+.description{
+    font-size: .6rem;
+    width: 240px;
+    margin-top: 12px;
+    line-height: 12px;
+    color: hsl(300, 43%, 22%);
+}
+
+.rating1, .rating2, .rating3{
+    display: flex;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.profile{
+    display: flex;
+}
+
+.name{
+    display:block;
+    font-size: .6rem;
+    color: white;
+}
+.buyer{
+    font-size: .6rem;
+    margin-top: 2px;
+    color: hsl(333, 80%, 67%);
+}
+
+.review{
+
+    color: white;
+    font-size: .55rem;
+    font-weight: 400;
+    width: 155px;
+    margin-top: 15px;
+    line-height: 12px;
+}
+.profile-pic{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+}
+
+.star{
+    width: 9px;
+    height: 9px;
+    margin-right: 4px;
+}
+
+.rating-info1, .rating-info2, .rating-info3{
+
+    font-size: 0.6rem;
+    font-weight: 700;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    
+}
+
+.rating1, .rating2, .rating3{
+
+    background-color: hsl(290, 29%, 96%);
+    color: hsl(300, 43%, 22%);
+    width: 245px;
+    padding: 10px 8px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    
+      
+}
+.rating2{
+    margin-left: 25px;
+}
+.rating3{
+    margin-left: 50px;
+}
+
+.review1, .review2, .review3{
+    background-color:  hsl(300, 43%, 22%);
+    width: 182px;
+    padding: 15px;
+    border-radius: 5px;
+    height: 120px;
+}
+
+.review2{
+    margin-top: 10px;
+}
+
+.review3{
+    margin-top: 20px;
+}
+
+.star1{
+    margin-left: 8px;
+}
+
+
+.attribution{
+    margin-top: 50px;
+}
+
+@media (max-width:400px) {
+    
+    main{
+        
+        width: 360px;
+        height:700px;
+        margin: 50px;
+    }
+
+    .top{
+        display: flex;
+        flex-direction:column;
+    }
+    .bottom{
+        flex-direction: column;
+    }
+
+    body{
+        
+        background-image: url(images/bg-pattern-top-mobile.svg), url(images/bg-pattern-bottom-mobile.svg);
+    
+    }
+    h1,.description{
+        text-align: center;
+        width: 180px;
+    }
+
+    .review2{
+    margin-top: 12px;
+}
+
+.review3{
+    margin-top: 12px;
+}
+.rating3{
+    margin-left: 0px;
+}
+.rating1, .rating2, .rating3{
+    width: 182px;
+}
+
+.star-container{
+    
+    margin-bottom: 5px;
+}
+.rating2, .rating1, .rating3{
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    
+}
+
+.left-container, .right-container, .bottom{
+    width: 100%;
+}
+
+.attribution{
+    margin-top: 0px;
+    width: 220px;
+}
+
+.star{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+}
